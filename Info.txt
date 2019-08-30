@@ -1,0 +1,5 @@
+Bildschirmauflösung = 1920x1080
+
+Zeilen Quelltext =
+     Html =	97
+     css  =	407
