@@ -1,5 +1,11 @@
-Bitte stellt eure Bildschirmauflösung auf 1920x1080 ein!    
- 
+Bildschirmauflösung = 1920x1080
+
+version 1
 Zeilen Quelltext =
      Html =	97
      css  =	407
+
+version 2
+Zeilen Quelltext =
+     Html = 97
+     css  = 502
