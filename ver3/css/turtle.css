@@ -1,0 +1,91 @@
+.turtle {
+  background: white;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -13%;
+  box-shadow: 1px;
+  width: 10%;
+  text-align: center;
+  animation: yellow 3s 1s;
+  /*Was wird das?*/
+}
+.turtle:hover {
+  background: yellow;
+  transition: background-color 1.5s;
+}
+
+.ngo {
+  background: white;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -11%;
+  box-shadow: 1px;
+  width: 10%;
+  text-align: center;
+  animation: yellow 3s 4s;
+  /*N:=4*/
+}
+.ngo:hover {
+  background: yellow;
+  transition: background-color 1.5s;
+}
+
+.nkv {
+  background: white;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -10%;
+  box-shadow: 1px;
+  width: 10%;
+  text-align: center;
+  animation: yellow 3s 7s;
+  /*N<4*/
+}
+.nkv:hover {
+  background: yellow;
+  transition: background-color 1.5s;
+}
+
+.anw {
+  background: white;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -9%;
+  box-shadow: 1px;
+  width: 10%;
+  text-align: center;
+  animation: yellow 3s 10s;
+  /*anweisungen*/
+}
+.anw:hover {
+  background: yellow;
+  transition: background-color 1.5s;
+}
+
+.npe {
+  background: white;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -0%;
+  box-shadow: 1px;
+  width: 10%;
+  text-align: center;
+	animation: yellow 3s 13s;
+  /*n:=n+1*/
+}
+.npe:hover {
+  background: yellow;
+  transition: background-color 1.5s;
+}
+
+@keyframes yellow {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+	background-color: white
+  }
+}
